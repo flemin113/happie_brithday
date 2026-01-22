@@ -1,3 +1,5 @@
+import confetti from 'canvas-confetti';
+
 document.addEventListener('DOMContentLoaded', () => {
     const surpriseBtn = document.getElementById('surpriseBtn');
     const videoModal = document.getElementById('videoModal');
