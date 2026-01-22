@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Zreya!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-elements">
+        <div class="element heart-1">♥</div>
+        <div class="element star-1">★</div>
+        <div class="element heart-2">♥</div>
+        <div class="element star-2">✦</div>
+        <div class="element cake">🎂</div>
+        <div class="element heart-3">♥</div>
+    </div>
+
+    <main class="container">
+        <div class="polaroid-wrapper">
+            <div class="polaroid">
+                <div class="photo-frame">
+                    <img src="assets/birthday_girl.jpg" alt="Birthday Girl" class="photo">
+                </div>
+                <div class="caption">
+                    Our favorite memories ✨
+                </div>
+                <div class="tape"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 class="title">Happy Birthday Zreya!</h1>
+            <p class="message">
+                Wishing you a day filled with as much sunshine and<br>
+                magic as you bring to everyone around you.
+            </p>
+
+            <button id="surpriseBtn" class="surprise-btn">
+                🎉 Click for a surprise
+            </button>
+
+            <p class="footer-note">made with lots of love & stickers</p>
+        </div>
+    </main>
+
+    <div id="videoModal" class="video-modal hidden">
+        <div class="video-container">
+            <button id="closeVideoBtn" class="close-btn">✖</button>
+            <video id="surpriseVideo" controls>
+                <source src="assets/WhatsApp Video 2026-01-22 at 12.35.10 PM.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
